@@ -1,8 +1,7 @@
-#include <iostream>
 
 /*
 
-	git remote set-url origin git@github.com:mesan2001/Premier-test.git
+
 	
 	
 	queslques commande utile : 
@@ -36,12 +35,8 @@
 	
 	// commit son projet sur github //
 	
-	
+	git remote set-url origin git@github.com:mesan2001/Premier-test.git  : cette commande permet de pointer mon push local sur le bon dossier sur github 
 */
 
 
-int main ()
-{
-	
-	return 0 ; 
-}
+

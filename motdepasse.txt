@@ -41,3 +41,9 @@ Redémarrez votre ordinateur :
         reboot
 
 Assurez-vous de remplacer "nom_utilisateur" par votre nom d'utilisateur réel. Ces étapes devraient vous permettre de réinitialiser votre mot de passe utilisateur sur Ubuntu.
+
+
+
+Attention , à la fin du changement , meme apres le redemarage , le systeme demande quand-meme l'ancien mot de passe pour juste une derniere fois : cliquez juste sur annuler , et le tour est joué ! 
+
+

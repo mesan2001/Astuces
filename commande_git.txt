@@ -4,7 +4,7 @@
 
 	
 	
-	queslques commande utile : 
+	quelques commande utile : 
 	
 	
 	// initialisatin de git //
@@ -36,7 +36,29 @@
 	// commit son projet sur github //
 	
 	git remote set-url origin git@github.com:mesan2001/Premier-test.git  : cette commande permet de pointer mon push local sur le bon dossier sur github 
+
+	
+	// PROCEDURE DE SUPPRESSION D'UNE APPLICATION INSTALLÉE SUR LA MACHINE ! 
+	
+	// Avoir les listes des applications installées : 
+	dpkg --list ou dkpg -l 
+	
+	// chercher une application en particulier : 
+	dpkg  -l | grep nom_application 
+	
+	// supprimer l'application une fois trouvé : 
+	sudo apt-get remove nom_app
+	
+	//supprimer les fichiers de configuration : 
+	sudo apt purge nom-app
+	
+	//supprimer les dependance inutiles apres avoir supprimé l'app : 
+	sudo apt autoremove
+		
+		// commentaire : parfois les noms applications seront difficiles à trouver alors il faut faire une recherche avec la commande find et en suite supprimer les fichiers de l'app
 */
+
+
 
 
 
